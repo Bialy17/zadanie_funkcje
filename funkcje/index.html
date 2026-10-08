@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Formularz do zadania 1-->
+    <form action="">
+        <label for="number-input">Wprowadź dowolną liczbę</label>
+        <input type="number" name="number-input" id="number-input">
+
+        <button type="submit" onclick="returnOppositeNumber(event)" id="ex1-btn">Potwierdź</button>
+    </form>
+
+    <p id="opposite-number"></p>
+
+    <br>
+
+    <!--Formularz do zadania 2-->
+    <form action="">
+        <label for="age">Wprowadź swój wiek: </label>
+        <input type="number" name="age" id="age" min="0">
+
+        <button type="submit" id="checkAge">Potwierdź</button>
+    </form>
+
+    <p id="majority-checked"></p>
+
+    <br>
+
+    <!--Wynik zadania 3-->
+    <p id="circuit-og-circle"></p>
+
+    <br>
+
+    <!--Wynik zadania 4-->
+    
+    <p id="set-of-numbers">Zbiór liczb: </p>
+
+    <p id="average"></p>
+    <p id="min"></p>
+    <p id="max"></p>
+
+</head>
+<body>
+    <script src="./zadanie1.js"></script>
+    <script src="./zadanie2.js"></script>
+    <script src="./zadanie3.js"></script>
+    <script src="./zadanie4.js"></script>
+</body>
+</html>
